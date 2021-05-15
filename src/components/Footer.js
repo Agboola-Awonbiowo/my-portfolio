@@ -8,20 +8,20 @@ export default function Footer() {
           <div className="made">
             <span>
               {" "}
-              <i class="far fa-copyright"></i> 2021{" "}
-              <span class="name">AGBOOLA</span>. MADE IN NIGERIA
+              <i className="far fa-copyright"></i> 2021{" "}
+              <span className="name">AGBOOLA</span>. MADE IN NIGERIA
             </span>
           </div>
           <div className="social-align">
             <div className="social">
               <div>
                 <span className="twitter">
-                  <i class="fab fa-twitter"></i>FOLLOW ME ON TWITTER
+                  <i className="fab fa-twitter"></i>FOLLOW ME ON TWITTER
                 </span>
               </div>
               <div>
                 <span className="link">
-                  <i class="fab fa-linkedin"></i>FOLLOW ME ON LINKEDIN
+                  <i className="fab fa-linkedin"></i>FOLLOW ME ON LINKEDIN
                 </span>
               </div>
             </div>

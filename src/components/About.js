@@ -13,7 +13,7 @@ export default function About() {
           <div data-aos="flip-left" className="about">
             <span>ABOUT ME</span>
           </div>
-          <div data-aos="fade-right">
+          <div data-aos="fade-right" className="ab-p">
             <p>
               Self-motivated IT professional with 2years experience. I have
               proficiency in HTML, CSS, JavaScript and jQuery. with experience

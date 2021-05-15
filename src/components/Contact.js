@@ -10,23 +10,25 @@ export default function Contact() {
     <div>
       <div className="contact">
         <div className="container">
-          <div data-aos="fade-in">
-            <span className="contact-ok">OK, LET'S CREATE SOMETHING GREAT</span>
+          <div data-aos="fade-in" className="contact-ok">
+            <p>OK, LET'S CREATE SOMETHING GREAT</p>
           </div>
           <div className="contact-des" data-aos="fade-left">
-            <span>
+            <p>
               If you like my work and have some cool project to work on, just
               send me direct message or contact me through the social sites
               listed below.
-            </span>
+            </p>
           </div>
           <div className="get" data-aos="flip-right">
-            <span className="get-intouch">GET IN TOUCH</span>
+            <span className="get-intouch">
+              <i className="fas fa-paper-plane"></i>GET IN TOUCH
+            </span>
           </div>
           <div className="social-contact" data-aos="fade-right">
             <ul>
               <li>EMAIL</li>
-              <li>LINKDLN</li>
+              <li>LINKEDIN</li>
               <li>GITHUB</li>
               <li>FACEBOOK</li>
               <li>TWITTER</li>
