@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Nav from "./Nav";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -8,12 +8,11 @@ export default function Home() {
     Aos.init({ duration: 3000 });
   }, []);
   return (
-    <div>
+    <div id="home">
       <div className="showcase">
         <img src="image/pexels-luis-gomes-546819.jpg" alt="" />
         <div className="upper">
           <div className="container">
-            <Nav />
             <h1 data-aos="fade-right">Hello, i'm Agboola</h1>
             <h2 data-aos="fade-left">
               <p>

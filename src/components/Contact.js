@@ -7,7 +7,7 @@ export default function Contact() {
     Aos.init({ duration: 3000 });
   }, []);
   return (
-    <div>
+    <div id="contact">
       <div className="contact">
         <div className="container">
           <div data-aos="fade-in" className="contact-ok">

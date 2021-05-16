@@ -7,7 +7,7 @@ export default function About() {
     Aos.init({ duration: 3000 });
   }, []);
   return (
-    <div>
+    <div id="about">
       <div className="profile">
         <div className="container">
           <div data-aos="flip-left" className="about">
