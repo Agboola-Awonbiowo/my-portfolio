@@ -5,28 +5,30 @@ import "aos/dist/aos.css";
 const content = [
   {
     title: "",
-    image: "/images/image-two.png",
-    description: "Amazon clone",
-    link: "Https://challenge-ec662.web.app/",
+    image: "images/image-four.png",
+    description: "Sako E-commerce",
+    link: "https://relaxed-khorana-a33e55.netlify.app/",
   },
+
   {
     title: "",
     image: "images/image-one.png",
     description: "Skillgrid learning website",
     link: "http://dev.skillgridtech.com/",
   },
+
   {
     title: "",
-    image: "images/image-three.png",
-    description: "Bakery products landing page",
-    link: "https://youthful-rosalind-0c1118.netlify.app/",
+    image: "/images/image-two.png",
+    description: "Amazon clone",
+    link: "Https://challenge-ec662.web.app/",
   },
 
   {
     title: "",
-    image: "images/image-four.png",
-    description: "Sako E-commerce",
-    link: "https://relaxed-khorana-a33e55.netlify.app/",
+    image: "images/image-three.png",
+    description: "Bakery website",
+    link: "https://youthful-rosalind-0c1118.netlify.app/",
   },
 ];
 

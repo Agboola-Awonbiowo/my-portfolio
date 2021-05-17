@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -20,7 +19,14 @@ export default function Home() {
               </p>
             </h2>
             <div data-aos="flip-left" className="botton">
-              <button>View my Cv here</button>
+              <button>
+                <a
+                  href="image/Agboola_Awonbiowo_Resume.pdf"
+                  download="Agboola_Awonbiowo_Resume.pdf"
+                >
+                  <i className="fas fa-download"></i> Resume
+                </a>
+              </button>
             </div>
           </div>
         </div>

@@ -27,12 +27,42 @@ export default function Contact() {
           </div>
           <div className="social-contact" data-aos="fade-right">
             <ul>
-              <li>EMAIL</li>
-              <li>LINKEDIN</li>
-              <li>GITHUB</li>
-              <li>FACEBOOK</li>
-              <li>TWITTER</li>
-              <li className="last-media">INSTAGRAM</li>
+              <li>
+                <a href="mailto: agboolanathaniel@yahoo.com">EMAIL</a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/agboawon/"
+                >
+                  LINKEDIN
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href="mailto: agboolaokiki@gmail.com">GMAIL</a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://web.facebook.com/hagboola1/"
+                >
+                  FACEBOOK
+                </a>{" "}
+              </li>
+              <li>+234-8163456922</li>
+              <li className="last-media">
+                {" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://instagram.com/awonbiowo_agboola1851"
+                >
+                  INSTAGRAM
+                </a>
+              </li>
             </ul>
           </div>
         </div>

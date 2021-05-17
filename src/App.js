@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
         </Switch>
       </Router>
-      {/* <Home /> */}
+
       <Portfolio />
       <About />
       <Contact />

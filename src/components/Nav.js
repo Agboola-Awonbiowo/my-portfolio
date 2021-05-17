@@ -8,9 +8,9 @@ export default function Nav() {
       <header>
         <div className="container">
           <div className="head">
-            <div>
-              <span>logo</span>
-            </div>
+            <span className="logo">
+              <img src="image/LogoMakr-6G6oQ1 (1).png" alt="" />
+            </span>
             <aside className={sidebarIsOpen ? "open" : ""}>
               <div className="nav">
                 <div onClick={() => setSidebarIsOpen(false)}>

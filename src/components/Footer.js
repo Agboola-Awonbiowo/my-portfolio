@@ -16,18 +16,35 @@ export default function Footer() {
             <div className="social">
               <div>
                 <span className="twitter">
-                  <i className="fab fa-twitter"></i>FOLLOW ME ON TWITTER
+                  <i className="fab fa-twitter"></i>{" "}
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://twitter.com/AwonbiowoAgboo1"
+                  >
+                    FOLLOW ME ON TWITTER
+                  </a>
                 </span>
               </div>
               <div>
                 <span className="link">
-                  <i className="fab fa-linkedin"></i>FOLLOW ME ON LINKEDIN
+                  <i className="fab fa-linkedin"></i>{" "}
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/agboawon/"
+                  >
+                    FOLLOW ME ON LINKEDIN
+                  </a>
                 </span>
               </div>
             </div>
           </div>
           <div className="tools">
-            <p>This site is built with great tools like Vs Code and Figma.</p>
+            <p>
+              This site is built with great tools like VsCode, React js, Git,
+              Aos, fontawesome and Hashlink.
+            </p>
           </div>
         </div>
       </footer>

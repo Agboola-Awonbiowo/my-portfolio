@@ -18,7 +18,28 @@ body {
   overflow: hidden;
 }
 
-/*  */
+/* logo animation */
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 10s linear;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
 /* nav */
 header {
   position: absolute;
@@ -28,8 +49,7 @@ header {
   z-index: 1;
   position: fixed;
   background-color: rgba(0, 136, 255, 0.2);
-  /* border-bottom: 1px #333 solid; */
-  height: 50px;
+  height: 60px;
   display: flex;
   align-items: center;
 }
@@ -42,7 +62,6 @@ a {
 .head {
   display: flex;
   justify-content: space-between;
-  /* padding-top: 20px; */
 }
 
 aside {
@@ -54,6 +73,8 @@ aside {
   display: flex;
   color: #fff;
   justify-content: space-between;
+  height: 50px;
+  align-items: center;
 }
 
 .nav > div {
@@ -74,11 +95,6 @@ aside {
   width: 100%;
 }
 
-/* .showcase {
-  position: absolute;
-  top: 0;
-} */
-
 .upper {
   display: flex;
   justify-content: center;
@@ -88,6 +104,11 @@ aside {
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+span img {
+  height: 50px;
+  width: 50px;
 }
 
 h1 {
@@ -150,7 +171,6 @@ button:hover {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center;
-  /* padding-top: 30px; */
   padding-bottom: 20px;
 }
 
@@ -168,7 +188,6 @@ button:hover {
 .port-head {
   font-size: 562.5%;
   text-align: center;
-  /* padding-top: 30px; */
   color: #1888ff;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 30px;
@@ -230,7 +249,6 @@ li {
   height: auto;
   display: flex;
   justify-content: center;
-  text-align: inherit;
   color: #fff;
   padding: 10px 0;
 }
@@ -238,13 +256,14 @@ li {
 .contact-ok {
   font-size: 562.5%;
   font-family: "Montserrat", sans-serif;
-  /* line-height: 2; */
+  text-align: inherit;
 }
 
 .contact-des {
   font-size: 40px;
   padding: 20px;
   line-height: 1.5;
+  text-align: inherit;
 }
 
 .get-intouch {
@@ -295,15 +314,18 @@ footer {
 
 .link {
   background-color: #000;
-  color: #36454f;
   padding: 10px;
+}
+
+span a {
+  color: #36454f;
 }
 
 .tool p {
   line-height: 2;
 }
 .tools {
-  padding: 10px;
+  padding: 20px;
 }
 
 .social-align {
@@ -341,7 +363,6 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-    /* height: 100vh; */
     background: linear-gradient(
       rgba(24, 136, 255, 0.5),
       rgba(0, 136, 255, 0.5)
@@ -580,6 +601,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 100%;
   }
 
   aside.open {
@@ -596,7 +618,7 @@ footer {
     display: block;
     background: none;
     position: absolute;
-    top: 0;
+    top: 10;
     right: 0;
     font-size: 2rem;
     color: #fff;
@@ -608,6 +630,10 @@ footer {
     right: 5px;
     font-size: 20px;
     display: block;
+  }
+
+  .logo {
+    margin-left: 10px;
   }
 
   .showcase img {
@@ -634,7 +660,6 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-    /* height: 100vh; */
     background: linear-gradient(
       rgba(24, 136, 255, 0.5),
       rgba(0, 136, 255, 0.5)
@@ -653,8 +678,6 @@ footer {
   .project-list {
     display: flex;
     justify-content: space-between;
-    /* padding-top: 0px;
-    padding-bottom: 50px; */
     flex-wrap: wrap;
   }
 
@@ -703,7 +726,6 @@ footer {
 
   ul {
     display: block;
-    /* justify-content: center; */
     text-align: center;
   }
 
@@ -840,6 +862,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 100%;
   }
 
   aside.open {
@@ -856,7 +879,7 @@ footer {
     display: block;
     background: none;
     position: absolute;
-    top: 0;
+    top: 10;
     right: 0;
     font-size: 2rem;
     color: #fff;
@@ -868,6 +891,10 @@ footer {
     right: 5px;
     font-size: 20px;
     display: block;
+  }
+
+  .logo {
+    margin-left: 10px;
   }
 
   .showcase img {
@@ -894,7 +921,6 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-    /* height: 100vh; */
     background: linear-gradient(
       rgba(24, 136, 255, 0.5),
       rgba(0, 136, 255, 0.5)
@@ -913,8 +939,6 @@ footer {
   .project-list {
     display: flex;
     justify-content: space-between;
-    /* padding-top: 0px;
-    padding-bottom: 50px; */
     flex-wrap: wrap;
   }
 
@@ -942,8 +966,6 @@ footer {
     text-align: initial;
     color: #fff;
     padding: 10px;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .about {
@@ -979,7 +1001,6 @@ footer {
     border-bottom: 1px #fff solid;
     border-right: none;
     padding: 10px;
-    /* width: 100%; */
   }
 
   .last-media {
@@ -1089,7 +1110,6 @@ footer {
 @media (min-width: 481px) and (max-width: 767px) {
   aside {
     position: absolute;
-    /* right: 0; */
     top: 0;
     background: #1888ff;
     z-index: 1;
@@ -1102,6 +1122,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 100%;
   }
 
   aside.open {
@@ -1118,7 +1139,7 @@ footer {
     display: block;
     background: none;
     position: absolute;
-    top: 0;
+    top: 10;
     right: 0;
     font-size: 2rem;
     color: #fff;
@@ -1130,6 +1151,10 @@ footer {
     right: 5px;
     font-size: 20px;
     display: block;
+  }
+
+  .logo {
+    margin-left: 10px;
   }
 
   .showcase img {
@@ -1202,8 +1227,6 @@ footer {
     text-align: initial;
     color: #fff;
     padding: 10px;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .about {
@@ -1239,7 +1262,6 @@ footer {
     border-bottom: 1px #fff solid;
     border-right: none;
     padding: 10px;
-    /* width: 100%; */
   }
 
   .last-media {
@@ -1294,12 +1316,10 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     align-content: space-between;
-    /* line-height: 2; */
     text-align: center;
   }
 
   .social > div {
-    /* margin-bottom: 10px; */
     margin: 10px;
   }
 
@@ -1351,7 +1371,6 @@ footer {
 @media screen and (min-width: 320px) and (max-width: 480px) {
   aside {
     position: absolute;
-    /* right: 0; */
     top: 0;
     background: #1888ff;
     z-index: 1;
@@ -1365,6 +1384,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 100%;
   }
 
   aside.open {
@@ -1381,7 +1401,7 @@ footer {
     display: block;
     background: none;
     position: absolute;
-    top: 0;
+    top: 10;
     right: 0;
     font-size: 2rem;
     color: #fff;
@@ -1393,6 +1413,10 @@ footer {
     right: 10px;
     font-size: 20px;
     display: block;
+  }
+
+  .logo {
+    margin-left: 10px;
   }
 
   .showcase img {
@@ -1503,8 +1527,6 @@ footer {
   .contact {
     background-color: #1888ff;
     height: auto;
-    /* display: flex;
-    justify-content: center; */
     text-align: inherit;
     color: #fff;
   }
@@ -1529,7 +1551,6 @@ footer {
 
   .get {
     padding: 20px;
-    /* margin-bottom: 10px; */
   }
 
   .fa-paper-plane {
@@ -1552,8 +1573,6 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* align-content: space-between; */
-    /* line-height: 2; */
     text-align: center;
   }
 
