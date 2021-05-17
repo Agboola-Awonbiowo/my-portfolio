@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.34d1a471.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.7ad2016e.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.7ad2016e.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.6509e99d.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.6509e99d.js.map",
-    "static/css/2.7fc9bc2b.chunk.css": "/my-portfolio/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.c9b19485.chunk.js": "/my-portfolio/static/js/2.c9b19485.chunk.js",
-    "static/js/2.c9b19485.chunk.js.map": "/my-portfolio/static/js/2.c9b19485.chunk.js.map",
-    "index.html": "/my-portfolio/index.html",
-    "static/css/2.7fc9bc2b.chunk.css.map": "/my-portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.34d1a471.chunk.css.map": "/my-portfolio/static/css/main.34d1a471.chunk.css.map",
-    "static/js/2.c9b19485.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.c9b19485.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/my-portfolio/static/media/pexels-mati-mango-5952645.550e0476.jpg"
+    "main.css": "/home/static/css/main.444dbf21.chunk.css",
+    "main.js": "/home/static/js/main.7ad2016e.chunk.js",
+    "main.js.map": "/home/static/js/main.7ad2016e.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.6be6837d.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.6be6837d.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/home/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.c9b19485.chunk.js": "/home/static/js/2.c9b19485.chunk.js",
+    "static/js/2.c9b19485.chunk.js.map": "/home/static/js/2.c9b19485.chunk.js.map",
+    "index.html": "/home/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/home/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.444dbf21.chunk.css.map": "/home/static/css/main.444dbf21.chunk.css.map",
+    "static/js/2.c9b19485.chunk.js.LICENSE.txt": "/home/static/js/2.c9b19485.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/home/static/media/pexels-mati-mango-5952645.550e0476.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6509e99d.js",
+    "static/js/runtime-main.6be6837d.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.c9b19485.chunk.js",
-    "static/css/main.34d1a471.chunk.css",
+    "static/css/main.444dbf21.chunk.css",
     "static/js/main.7ad2016e.chunk.js"
   ]
 }
