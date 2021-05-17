@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Scarz007/my-portfolio/static/css/main.614c44d0.chunk.css",
-    "main.js": "/Scarz007/my-portfolio/static/js/main.7ad2016e.chunk.js",
-    "main.js.map": "/Scarz007/my-portfolio/static/js/main.7ad2016e.chunk.js.map",
-    "runtime-main.js": "/Scarz007/my-portfolio/static/js/runtime-main.f9da17fd.js",
-    "runtime-main.js.map": "/Scarz007/my-portfolio/static/js/runtime-main.f9da17fd.js.map",
-    "static/css/2.7fc9bc2b.chunk.css": "/Scarz007/my-portfolio/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.c9b19485.chunk.js": "/Scarz007/my-portfolio/static/js/2.c9b19485.chunk.js",
-    "static/js/2.c9b19485.chunk.js.map": "/Scarz007/my-portfolio/static/js/2.c9b19485.chunk.js.map",
-    "index.html": "/Scarz007/my-portfolio/index.html",
-    "static/css/2.7fc9bc2b.chunk.css.map": "/Scarz007/my-portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.614c44d0.chunk.css.map": "/Scarz007/my-portfolio/static/css/main.614c44d0.chunk.css.map",
-    "static/js/2.c9b19485.chunk.js.LICENSE.txt": "/Scarz007/my-portfolio/static/js/2.c9b19485.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Scarz007/my-portfolio/static/media/pexels-mati-mango-5952645.550e0476.jpg"
+    "main.css": "/my-portfolio/static/css/main.34d1a471.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.7ad2016e.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.7ad2016e.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.6509e99d.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.6509e99d.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/my-portfolio/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.c9b19485.chunk.js": "/my-portfolio/static/js/2.c9b19485.chunk.js",
+    "static/js/2.c9b19485.chunk.js.map": "/my-portfolio/static/js/2.c9b19485.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/my-portfolio/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.34d1a471.chunk.css.map": "/my-portfolio/static/css/main.34d1a471.chunk.css.map",
+    "static/js/2.c9b19485.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.c9b19485.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/my-portfolio/static/media/pexels-mati-mango-5952645.550e0476.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9da17fd.js",
+    "static/js/runtime-main.6509e99d.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.c9b19485.chunk.js",
-    "static/css/main.614c44d0.chunk.css",
+    "static/css/main.34d1a471.chunk.css",
     "static/js/main.7ad2016e.chunk.js"
   ]
 }
