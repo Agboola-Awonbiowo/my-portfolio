@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <div id="home">
       <div className="showcase">
-        <img src="image/pexels-luis-gomes-546819.jpg" alt="" />
         <div className="upper">
           <div className="container">
             <h1 data-aos="fade-right">Hello, i'm Agboola</h1>

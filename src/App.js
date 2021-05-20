@@ -1,4 +1,3 @@
-import "./App.css";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Nav from "./components/Nav";
@@ -21,7 +20,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
         </Switch>
       </Router>
-
+      {/* <Home /> */}
       <Portfolio />
       <About />
       <Contact />

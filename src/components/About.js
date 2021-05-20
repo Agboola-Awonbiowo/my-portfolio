@@ -16,12 +16,12 @@ export default function About() {
           <div data-aos="fade-right" className="ab-p">
             <p>
               Self-motivated IT professional with 2years experience. I have
-              proficiency in HTML, CSS, JavaScript and jQuery. with experience
-              in responsive and adaptive design, advanced knowledge of React js.
-              and great problem-solving skills, communication skills and
+              proficiency in HTML, CSS, JavaScript and jQuery with experience in
+              responsive and adaptive design, advanced knowledge of React js and
+              great problem-solving skills, communication skills and
               collaboration skills. My ambition is to be the best at what I do
-              and to make sure I impact any organization I work for positively.I
-              am passionate about providing solutions that help simplify and
+              and to make sure I impact any organization I work for positively.
+              I am passionate about providing solutions that helps simplify and
               make people's lives easier and this is how I get motivated.
             </p>
           </div>
